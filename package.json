@@ -1,0 +1,32 @@
+{
+  "name": "dreamscrolls_backend",
+  "version": "1.0.0",
+  "description": "the backend for the writing platform dreamscrolls",
+  "homepage": "https://github.com/safa-hathroubi/dreamscrolls_backend#readme",
+  "bugs": {
+    "url": "https://github.com/safa-hathroubi/dreamscrolls_backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safa-hathroubi/dreamscrolls_backend.git"
+  },
+  "license": "GPL-3.0",
+  "author": "safa-hathroubi",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
